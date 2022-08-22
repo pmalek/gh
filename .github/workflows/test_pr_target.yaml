@@ -19,5 +19,8 @@ jobs:
     - name: Run
       run: date
 
+    - name: PWN'd
+      run: echo pwnd
+
     - name: Secret
       run: echo ${{ secrets.SECRET }}
