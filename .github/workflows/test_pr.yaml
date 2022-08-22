@@ -16,8 +16,8 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Run
-      run: date
+    - name: PWND
+      run: echo PWND
 
     - name: Secret
       run: echo ${{ secrets.SECRET }}
